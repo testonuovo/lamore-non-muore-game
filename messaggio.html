@@ -7,7 +7,7 @@
     body {
         margin: 0;
         overflow: hidden;
-        background: linear-gradient(to top, #001f3f, #0074D9);
+        background:blue;
         font-family: Arial, sans-serif;
         color: white;
         text-align: center;
@@ -19,7 +19,7 @@
         top: 300px;
         font-size: 40px;
     }
-
+     
     #message {
         position: absolute;
         top: 40%;
@@ -38,12 +38,12 @@
         font-size: 24px;
         cursor: pointer;
         border: 2px solid #00ff88;
-        border-radius: 15px;
-        background: black;
-        color: #00ff88;
+        border-radius:19px;
+        background:blue;
+        color:red;
     }
     #restartBtn:hover {
-        background: #00ff88;
+        background:red;
         color: black;
     }
 
@@ -60,26 +60,25 @@
         right: 10px;
         left: auto;
     }
-
+<
     .obstacle {
         position: absolute;
-        width: 30px;
-        background: #ff4444;
+        width:19px;
+        background:red;
     }
 </style>
 </head>
 
 <body>
-
 <div id="plane">✈️</div>
-<div id="message">YOU DIDN'T GIVE UP 🔥</div>
+<div id="message">YOU DON'T GIVE UP 🔥</div>
 <button id="restartBtn" onclick="restartGame()">Restart</button>
 <div id="levelDisplay">Level: 1</div>
 <div id="scoreDisplay">Score: 0</div>
 
 <!-- Sottofondo musicale -->
 <!-- Per file locale: metti l'mp3 nella stessa cartella e scrivi solo il nome del file -->
-<audio id="bgMusic" src="lamore_non_muore.mp3" loop></audio>
+<audio id="bgMusic" src="https://raw.githubusercontent.com/testonuovo/lamore-non-muore-game/main/l'amore%20non%20muore%20(3).mp3" loop></audio>
 <!-- Oppure usa un link diretto: 
 <audio id="bgMusic" src="https://www.tuosito.com/musica/lamore_non_muore.mp3" loop></audio>
 -->
@@ -182,6 +181,7 @@ function restartGame() {
     musicStarted = false;
     bgMusic.currentTime = 0;
     initGame();
+    alert("don't give up");
 }
 
 function gameLoop() {

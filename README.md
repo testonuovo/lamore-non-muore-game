@@ -18,7 +18,7 @@ Il gioco aumenta di difficoltà man mano che si avanza nei livelli e mostra punt
 
 ## 🌐 Live Demo
 Gioca subito online su GitHub Pages:  
-[https://testonuovo.github.io/lamore-non-muore-game/](https://testonuovo.github.io/lamore-non-muore-game/)  
+https://github.com/testonuovo/lamore-non-muore-game/blob/main/index.html  
 
 ---
 
